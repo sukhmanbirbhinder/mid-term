@@ -1,0 +1,123 @@
+/* main section */
+article {
+    padding: 10px;
+}
+/*first banner with text */
+#front-banner {
+    background: url(img/American-Robin.webp);
+    background-size: cover;
+}
+/* banner text */
+#front-banner h1 {
+    text-align: center;
+    padding: 265px 0px 75px;
+    margin: 0px;
+    color: white;
+    font-size: 50px;
+}
+/*site body layout*/
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    background: #ffead3;
+}
+.main {
+    background: #f5f5f5;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* menu list  */
+div#nav ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+div#nav ul li {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+div#nav ul li:nth-child(2) {
+    border: 1px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+/* main content */
+.blend {
+    display: flex;
+}
+
+div#content img {
+    width: 100%;
+}
+
+.sectionfirst {
+    width: 20%;
+}
+
+.sectionsecond {
+    width: 80%;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 11px 0px;
+}
+
+div#content p {
+    padding: 0px 18px;
+    margin: 0px;
+    font-size: 17px;
+}
+
+/* facts section */
+.facts-about-robin ul {
+    padding-top: 1px;
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* contact form design */
+form {
+    border: 1px solid;
+    padding: 18px 14px;
+    border-color: black;
+}
+.width100 {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+.formtext {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+.radio {
+    font-size: 18px;
+}
+#btn {
+    border: 1px solid black;
+    width: 90px;
+    font-size: 14px;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background: transparent;
+}
+
+/* footer */
+footer {
+    padding: 10px;
+    text-align: right;
+}
