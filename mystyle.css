@@ -1,14 +1,14 @@
-/* main section */
+/* article section for main content */
 article {
     padding: 10px;
 }
-/*first banner with text */
-#front-banner {
+/*first robin banner showing text */
+#robin-banner {
     background: url(img/American-Robin.webp);
     background-size: cover;
 }
 /* banner text */
-#front-banner h1 {
+#robin-banner h1 {
     text-align: center;
     padding: 265px 0px 75px;
     margin: 0px;
@@ -47,7 +47,7 @@ div#nav ul li {
     text-transform: uppercase;
 }
 
-div#nav ul li:nth-child(2) {
+.my-active-link{
     border: 1px solid black;
     border-top: 0px;
     border-bottom: 0px;
